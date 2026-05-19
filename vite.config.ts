@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: './',  // ← 就加了这一行
+    base: '/jdi_fae/',  // GitHub Pages 部署路径
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
